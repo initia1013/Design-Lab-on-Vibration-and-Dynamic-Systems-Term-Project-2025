@@ -54,47 +54,49 @@ void loop() {
     else if (data == '1') {
       analogWrite(ENA, 70);
       analogWrite(ENB, 70);
-      Serial.println("Speed set to 100");
+      Serial.println("Speed set to 70");
     } 
     else if (data == '2') {
       analogWrite(ENA, 75);
       analogWrite(ENB, 75);
-      Serial.println("Speed set to 120");
+      Serial.println("Speed set to 75");
     } 
     else if (data == '3') {
       analogWrite(ENA, 80);
       analogWrite(ENB, 80);
-      Serial.println("Speed set to 130");
+      Serial.println("Speed set to 80");
     } 
     else if (data == '4') {
       analogWrite(ENA, 85);
       analogWrite(ENB, 85);
-      Serial.println("Speed set to 140");
+      Serial.println("Speed set to 85");
     } 
     else if (data == '5') {
       analogWrite(ENA, 100);
       analogWrite(ENB, 100);
-      Serial.println("Speed set to 150");
+      Serial.println("Speed set to 100");
     } 
     else if (data == '6') {
       analogWrite(ENA, 110);
       analogWrite(ENB, 110);
-      Serial.println("Speed set to 160");
+      Serial.println("Speed set to 110");
     } 
     else if (data == '7') {
       analogWrite(ENA, 65);
       analogWrite(ENB, 65);
-      Serial.println("Speed set to 170");
+      Serial.println("Speed set to 65");
     } 
     else if (data == '8') {
       analogWrite(ENA, 0);
       analogWrite(ENB, 140);
-      Serial.println("Speed set to 180");
+  // 한쪽 모터만 회전
+      Serial.println("Speed set to 140");
     } 
     else if (data == '9') {
       analogWrite(ENA, 0);
       analogWrite(ENB, 160);
-      Serial.println("Speed set to 200");
+  // 한쪽 모터만 회전
+      Serial.println("Speed set to 160");
     } 
 
   }
